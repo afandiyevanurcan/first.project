@@ -1,0 +1,142 @@
+h1{
+    font-family: Roboto Slab;
+}
+section{
+    font-family: Roboto;
+}
+h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+}
+.first-part{
+    display: flex;
+    
+    align-items: center;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    padding-right: 190px;
+}
+.paragraph p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.first-part img{
+    width: 314px;
+    height: 315px;
+}
+
+ul{
+    list-style: none;
+}
+.second-part li p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+.second-part li h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+}
+main{
+    padding: 90px 125px;
+}
+.second-part ul{
+    display: flex;
+    gap: 40px;
+    padding-left: 100px;
+}
+.second-part{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (max-width: 830px){
+    main{
+        padding: 56px 72px;
+    }
+    .first-part img{
+        width: 181.85px;
+        height: 182.44px;
+    }
+    
+    .second-part ul{
+        display: flex;
+        gap: 40px;
+        padding-left: 0px;
+    }
+    .second-part li p{
+        font-size: 11px;
+        line-height: 14.3px;
+        width: 90px;
+        height: 22.59px;
+    }
+    .second-part li h3{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    h1{
+        font-size: 32px;
+        line-height: 50.44px;
+    }
+    .paragraph p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .paragraph{
+        width: 488.55px;
+    }
+}
+@media (max-width: 375px){
+    main{
+        padding: 56px 36px;
+    }
+    .first-part img{
+        width: 170px;
+        height: 160px;
+        margin: 20px 0px;      
+    }
+    .first-part{
+        display: flex;  
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second-part{
+        display: flex;
+        width: 100%;
+        margin: 16px 0px;
+    }
+    .second-part ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding:16px 0px;
+    }
+    .second-part li p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .second-part li h3{
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+    h1{
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .paragraph p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .paragraph{
+        width: 308px;
+        padding-right: 0px;
+    }
+}
