@@ -28,6 +28,10 @@ h1{
     width: 314px;
     height: 315px;
 }
+.second-part img{
+    width: 314px;
+    height: 315px;
+}
 
 ul{
     list-style: none;
@@ -57,7 +61,7 @@ main{
 
 
 
-@media (max-width: 830px){
+@media (min-width: 830px){
     main{
         padding: 56px 72px;
     }
@@ -93,7 +97,7 @@ main{
         width: 488.55px;
     }
 }
-@media (max-width: 375px){
+@media (min-width: 375px){
     main{
         padding: 56px 36px;
     }
