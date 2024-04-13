@@ -1,146 +1,162 @@
-h1{
-    font-family: Roboto Slab;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.format{
+    background-color: #fff;
+    margin: 0 auto;
 }
-section{
-    font-family: Roboto;
+.format-content{
+    padding: 21px 50px 122px 80px;
 }
-h1{
+.format-title{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 55px;
+    line-height: 101.4%;
+}
+.format-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.format-item-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+}
+.format-item-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
+.format-item:first-child{
+    /* width: 194px; */
+    width: 19%;
+    height: 39px;
+    margin-right: 120px;
+}
+.format-item:nth-child(2){
+    max-width: 18.95%;
+    height: 109px;
+    margin-right: 130px;
+}
+.format-item:last-child{
+    max-width: 21%;
+    height: 39px;
+}
+.learn{
+    background-color: #fff;
+    margin: 0 auto;
+}
+.learn-content{
+    padding: 90px 60px 121px 80px;
+}
+.learn-title{
+    font-family: "Roboto Slab", serif;
     font-size: 55px;
     font-weight: 700;
-    line-height: 55.76px;
+    line-height: 101.4%;
 }
-.first-part{
-    display: flex;
-    
-    align-items: center;
-}
-.paragraph{
-    display: flex;
-    flex-direction: column;
-    padding-right: 190px;
-}
-.paragraph p{
+.learn-list{
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
+    line-height: 150%;
+    list-style-type: disc;
+    width: 47%;
 }
-.first-part img{
-    width: 314px;
-    height: 315px;
+.learn-item{
+    padding-left: 17px;
 }
-.second-part img{
-    width: 314px;
-    height: 315px;
-}
-
-ul{
-    list-style: none;
-}
-.second-part li p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23.4px;
-}
-.second-part li h3{
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 32.5px;
-}
-main{
-    padding: 90px 125px;
-}
-.second-part ul{
-    display: flex;
-    gap: 40px;
-    padding-left: 100px;
-}
-.second-part{
-    display: flex;
-    align-items: center;
-}
-
-
-
-@media (min-width: 830px){
-    main{
-        padding: 56px 72px;
+@media screen and (min-width: 601px) and (max-width: 991px){
+    .format-content{
+        padding: 50px 30px 70px 40px;
     }
-    .first-part img{
-        width: 181.85px;
-        height: 182.44px;
-    }
-    
-    .second-part ul{
-        display: flex;
-        gap: 40px;
-        padding-left: 0px;
-    }
-    .second-part li p{
-        font-size: 11px;
-        line-height: 14.3px;
-        width: 90px;
-        height: 22.59px;
-    }
-    .second-part li h3{
-        font-size: 15px;
-        line-height: 19.5px;
-    }
-    h1{
+    .format-title{
         font-size: 32px;
-        line-height: 50.44px;
     }
-    .paragraph p{
-        font-size: 14px;
-        line-height: 21px;
-    }
-    .paragraph{
-        width: 488.55px;
-    }
-}
-@media (min-width: 375px){
-    main{
-        padding: 56px 36px;
-    }
-    .first-part img{
-        width: 170px;
-        height: 160px;
-        margin: 20px 0px;      
-    }
-    .first-part{
-        display: flex;  
+    .format-items{
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
     }
-    .second-part{
-        display: flex;
-        width: 100%;
-        margin: 16px 0px;
+    .format-item-title{
+        font-size: 15px;
+    } 
+    .format-item-text{
+        font-size: 11px;
+        line-height: 130%;
     }
-    .second-part ul{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-        padding:16px 0px;
+    .format-item:first-child{
+        width: 17%;
+        height: 22px;
+         margin-right: 90px;
+     }
+    .format-item:nth-child(2){
+        max-width: 16.95%;
+        height: 63px;
+        margin-right: 90px;
     }
-    .second-part li p{
-        font-size: 10px;
-        line-height: 13px;
+    .format-item:last-child{
+        max-width: 19%;
+        height: 23px;
     }
-    .second-part li h3{
-        font-size: 12px;
-        line-height: 15.6px;
+    .learn-content{
+        padding: 20px 50px 70px 60px;
     }
-    h1{
+    .learn-title{
+        font-size: 32px;
+    }
+   .learn-list{
+        font-size: 14px;
+        width: 43%;
+    }
+   .learn-item{
+        padding-left: 10px;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .format-content{
+        padding: 40px 40px 36px 50px;
+    }
+    .format-content{
+        padding: 50px 30px 70px 40px;
+    }
+    .format-title{
         font-size: 26px;
-        line-height: 26.36px;
     }
-    .paragraph p{
+    .format-items{
+        flex-direction: column;
+    }
+    .format-item-title{
         font-size: 12px;
-        line-height: 18px;
+        ;
+    } 
+    .format-item-text{
+        font-size: 10px;
     }
-    .paragraph{
-        width: 308px;
-        padding-right: 0px;
+    .format-item:first-child{
+        width: 53%;
+        margin-bottom: 50px;
+
+     }
+    .format-item:nth-child(2){
+        max-width: 47.99%;
+        height: 63px;
+        margin-bottom: 50px;
     }
+    .format-item:last-child{
+        max-width: 39%;
+        height: 23px;
+    }
+   .learn-content{
+        padding: 40px 30px 36px 40px;
+   }
+   .learn-title{
+        font-size: 26px;
+   }
+   .learn-list{
+        font-size: 12px;
+        width: 89%;
+   }
+   .learn-item{
+        padding-left: 8px;
+}
+
 }
